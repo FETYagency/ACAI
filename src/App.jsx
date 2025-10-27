@@ -11,10 +11,11 @@ function App() {
   ];
 
   const teamMembers = [
-    { name: "Baha Eddine Tria", role: "Team Leader", photo: "/baha.jpg" },
-    { name: "Caleb", role: "Researcher", photo: "/caleb.jpg" },
-    { name: "Sara Belkacem", role: "Designer", photo: "/etham.jpg" },
-    { name: "Younes Chenni", role: "Developer", photo: "/sharmota.jpg" },
+    { name: "Baha Eddine Tria", role: "CEO", photo: "/baha.jpg" },
+    { name: "Caleb", role: "CTO", photo: "/caleb.jpg" },
+    { name: "Etham", role: "Writer", photo: "/etham.jpg" },
+    { name: "Evellyn", role: "Designer", photo: "/sharmota.jpg" },
+    { name: "Naba", role: "CIO", photo: "/sharmota.jpg" },
   ];
 
   const [currentVideo, setCurrentVideo] = useState(videos[0]);
